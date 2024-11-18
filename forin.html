@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For in, For of</title>
+
+
+    <script>
+
+        const nome = 'Paulo'
+        const nota = 1
+
+        const pessoa = {
+            nome: 'Paulo', 
+            telefone: '(00)0000-0000', 
+            endereco: 'ABC'
+        }
+
+        const carros = ['Gol', 'Fusca', 'Virtus', 'Ka']
+       
+        for(let atributo in pessoa){
+            console.log(atributo + ' -> ' + pessoa[atributo])
+        }
+
+        for(let elemento of carros){
+            console.log(elemento)
+        }
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
